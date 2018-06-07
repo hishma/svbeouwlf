@@ -1,0 +1,14 @@
+{% for page in site.pages %}
+    {% for tag in page.tags %}
+      {% if tag == "about" %}
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+{% endfor %}
+{% for page in site.pages %}
+    {% for tag in page.tags %}
+      {% if tag == "contact" %}
+        <a href="{{ page.url }}">{{ page.title }}</a>
+      {% endif %}
+    {% endfor %}
+{% endfor %}
