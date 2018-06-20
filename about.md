@@ -1,8 +1,9 @@
 ---
 layout: page
-title: About S/V Beowulf
-permalink: /about/
+title: About
+permalink: about/
 tags: about
+category: about
 ---
 
 S/V Beowulf is a 1978 [Marieholm 26](http://www.solopublications.com/sailmarie26.htm) made in Sweden. She was designed by Tord Sundén as an update of the International Folkboat (A.K.A. IF boat), which in turn were based on the original [Nordic Folkboat](https://en.wikipedia.org/wiki/Nordic_Folkboat).

@@ -1,0 +1,4 @@
+projectDirectory    = "$CWD"
+TM_PROJECT_NAME     = "svbeowulf.com"
+TM_ORGANIZATION		  = "hishma.com"
+windowTitle         = "$TM_PROJECT_NAME - $TM_SCM_BRANCH - $TM_DISPLAYNAME"

@@ -14,12 +14,12 @@ Rain squalls, some heavy, rolled in and passed over as we loaded up the boat.
 
 Time | <span title="Distance (nautical miles)">Log</span> | <span title="Course Over Ground">COG</span> | <span title="Speed Over Ground (knots)">SOG | Location | Remarks
 ---- | ---- | --- | --- | -------- | -------
-1605 | 0.0 | 109°T | 3.2&nbsp;kt | 48°&nbsp;40.389'&nbsp;N, 123°&nbsp;24.648'&nbsp;W | Departed Westport Marina in Tsehum Harbour, Sidney B.C. Topped off fuel.
-1611 | 0.4 | 099°T | 3.4 | 48° 40.249' N, 123° 24.119' W |
-1726 | 4.7 | 058°T | 5.1 | 48° 41.704' N, 123° 17.921' W | SE of Point T Fairfax on Moreseby Island.
-1736 | 5.2 | 084°T | 3.7 | 48° 41.758' N, 123° 17.231' W | Riased sails, motor off (225.4 hours)
-1832 | 7.5 | 352°T | 4.1 | 48° 42.445' N, 123° 13.916' W | Boundary Pass, Just N of the border and Stuart Island. Dropped sails, heading into Bedwell Harbour.
-1920 | 9.9 | 171°T | 0.0 | 48° 44.841' N, 123° 13.776' W | Arrived at Poet's Cove.
+1605 | 0.0 | 109°T | 3.2&nbsp;kt | 48°&nbsp;40.389'&nbsp;N, 123°&nbsp;24.648'&nbsp;W | Departed Westport Marina in Tsehum Harbour, Sidney B.C. Topped off fuel. Engine on (223.8 hrs).
+1611 | 0.4 | 099°T | 3.4 | 48° 40.249' N, 123° 24.119' W | Exiting Tsehum Harbour, squalls continue to pass though, dark ominous clouds rolling in from the west. Growing concerned about this weather and our late start. Considering a return to Sydney for the night if conditions worsen. Will gage progress for another hour and decide. 
+1726 | 4.7 | 058°T | 5.1 | 48° 41.704' N, 123° 17.921' W | Acrosss Prevost Passage, SE of Pt Fairfax on Moresby Island. Weather improving, continuing on.
+1736 | 5.2 | 084°T | 3.7 | 48° 41.758' N, 123° 17.231' W | Sun is out! Raised sails, engine off (225.4 hrs). Wind estimated at 8-10 knots.
+1832 | 7.5 | 352°T | 4.1 | 48° 42.445' N, 123° 13.916' W | Just north of Stuart Island and the imaginary border in Boundary Pass. Wind diminishing. Dropped sails and heading into Bedwell Harbor. Absolutely beautifl first sail, even if only for an hour or so. Crew and boat are getting to know one another.
+1920 | 9.9 | 171°T | 0.0 | 48° 44.841' N, 123° 13.776' W | Arrived at Poet's Cove on S Pender Island. With Grendel still deflated and tied to the foredeck, we decided to pass on the mooring ball and pay for a slip. It didn't hurt that the resort restaurant was open until 9pm. Nice soft landing for our first day out. Found out later that moorage included access to the pool and hot tub!
 
 ### June 10, 2018
 
