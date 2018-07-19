@@ -1,0 +1,58 @@
+.log-data {
+  display: grid;
+  grid-gap: 1px;
+  background: #bbb;
+  grid-template-areas:
+    "label--time label--log"
+    "value--time value--log"
+    "label--cog label--sog"
+    "value--cog value--sog";
+  @media screen and (min-width: $viewport-medium) {
+    grid-template-areas:
+      "label--time label--log label--cog label--sog"
+      "value--time value--log value--cog value--sog";
+  }
+
+  > * {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
+    text-align: center;
+  }
+
+  &__label {
+    color: #222;
+    font-weight: bold;
+    font-family: $heading-font-family;
+  }
+  &__value {
+    color: #444;
+    font-style: italic;
+  }
+
+  .label--time {
+    grid-area: label--time;
+  }
+  .value--time {
+    grid-area: value--time;
+  }
+  .label--log {
+    grid-area: label--log;
+  }
+  .value--log {
+    grid-area: value--log;
+  }
+  .label--cog {
+    grid-area: label--cog;
+  }
+  .value--cog {
+    grid-area: value--cog;
+  }
+  .label--sog {
+    grid-area: label--sog;
+  }
+  .value--sog {
+    grid-area: value--sog;
+  }
+}
