@@ -10,25 +10,18 @@ layout: default
 </div>
 
 <article class="post-content">
-  <table class="log-data">
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th><span title="Distance (nautical miles)">Log</span></th>
-        <th><span title="Course Over Ground">COG</span></th>
-        <th><span title="Speed Over Ground (knots)">SOG</span></th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>{{ page.time }}</td>
-        <td>{{ page.log }} nm</td>
-        <td>{{ page.cog }}</td>
-        <td>{{ page.sog }} kt</td>
-      </tr>
-    </tbody>
-  </table>  
+
+  <dl class="log-data">
+    <dt class="log-data__label label--time">Time</dt>
+    <dd class="log-data__value value--time">{{ page.time }}</dd>
+    <dt class="log-data__label label--log"><span title="Distance (nautical miles)">Log</span></dt>
+    <dd class="log-data__value value--log">{{ page.log }} nm</dd>
+    <dt class="log-data__label label--cog"><span title="Course Over Ground">COG</span></dt>
+    <dd class="log-data__value value--cog">{{ page.cog }}</dd>
+    <dt class="log-data__label label--sog"><span title="Speed Over Ground (knots)">SOG</span></dt>
+    <dd class="log-data__value value--sog">{{ page.sog }} kt</dd>
+  </dl>
+
   <h2>Remarks</h2>
   {{ content }}
 </article>
-
