@@ -4,14 +4,17 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-    <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
-    <span class="post-meta">{{ page.lat }}, {{ page.lon }}</span><br>
+    <span class="post-meta">{{ page.date | date: site.date_format }}</span>
   </span>
 </div>
 
 <article class="post-content">
 
   <dl class="log-data">
+    <dt class="log-data__label label--lat">Lat</dt>
+    <dd class="log-data__value value--lat">{{ page.lat }}</dd>
+    <dt class="log-data__label label--lon">Lon</dt>
+    <dd class="log-data__value value--lon">{{ page.lon }}</dd>
     <dt class="log-data__label label--time">Time</dt>
     <dd class="log-data__value value--time">{{ page.time }}</dd>
     <dt class="log-data__label label--log"><span title="Distance (nautical miles)">Log</span></dt>
