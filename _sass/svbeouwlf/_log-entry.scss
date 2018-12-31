@@ -3,14 +3,16 @@
   grid-gap: 1px;
   background: #bbb;
   grid-template-areas:
+    "label--lat label--lon"
+    "value--lat value--lon"
     "label--time label--log"
     "value--time value--log"
     "label--cog label--sog"
     "value--cog value--sog";
   @media screen and (min-width: $viewport-medium) {
     grid-template-areas:
-      "label--time label--log label--cog label--sog"
-      "value--time value--log value--cog value--sog";
+      "label--lat label--lon label--time label--log label--cog label--sog"
+      "value--lat value--lon value--time value--log value--cog value--sog";
   }
 
   > * {
@@ -31,6 +33,18 @@
     font-style: italic;
   }
 
+  .label--lat {
+    grid-area: label--lat;
+  }
+  .value--lat {
+    grid-area: value--lat;
+  }
+  .label--lon {
+    grid-area: label--lon;
+  }
+  .value--lon {
+    grid-area: value--lon;
+  }
   .label--time {
     grid-area: label--time;
   }
