@@ -2,17 +2,13 @@
   display: grid;
   grid-gap: 1px;
   background: #bbb;
-  grid-template-areas:
-    "label--lat label--lon"
-    "value--lat value--lon"
-    "label--time label--log"
-    "value--time value--log"
-    "label--cog label--sog"
-    "value--cog value--sog";
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: row;
   @media screen and (min-width: $viewport-medium) {
-    grid-template-areas:
-      "label--lat label--lon label--time label--log label--cog label--sog"
-      "value--lat value--lon value--time value--log value--cog value--sog";
+    grid-template-columns: auto;
+    grid-template-rows: 1fr 1fr;
+    grid-auto-flow: column;
   }
 
   > * {
@@ -31,42 +27,5 @@
   &__value {
     color: #444;
     font-style: italic;
-  }
-
-  .label--lat {
-    grid-area: label--lat;
-  }
-  .value--lat {
-    grid-area: value--lat;
-  }
-  .label--lon {
-    grid-area: label--lon;
-  }
-  .value--lon {
-    grid-area: value--lon;
-  }
-  .label--time {
-    grid-area: label--time;
-  }
-  .value--time {
-    grid-area: value--time;
-  }
-  .label--log {
-    grid-area: label--log;
-  }
-  .value--log {
-    grid-area: value--log;
-  }
-  .label--cog {
-    grid-area: label--cog;
-  }
-  .value--cog {
-    grid-area: value--cog;
-  }
-  .label--sog {
-    grid-area: label--sog;
-  }
-  .value--sog {
-    grid-area: value--sog;
   }
 }
