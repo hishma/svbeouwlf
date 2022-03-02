@@ -13,6 +13,14 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/pixyll.css" type="text/css">
 	
+	<style type="text/css">
+	    .e-mail:before {
+	        content: attr(data-website) "\0040" attr(data-user);
+	        unicode-bidi: bidi-override;
+	        direction: rtl;
+	    }
+	</style>
+	
 	<!-- Open Graph -->
   <!-- From: https://github.com/mmistakes/hpstr-jekyll-theme/blob/master/_includes/head.html -->
   <meta property="og:locale" content="en_US">
@@ -69,10 +77,23 @@
 
 					<p>Today she continues to sail the waters of <a href="https://en.wikipedia.org/wiki/Puget_Sound">Puget Sound</a> and the greater <a href="https://en.wikipedia.org/wiki/Salish_Sea">Salish Sea</a> from her home port in Seattle.</p>
 					
-					<p>John Vigor wrote a great article about Folkboats for Good Old Boat Magazine that you can read <a href="http://www.clickbert.com/IFboat/techtips/vigor.html">here</a>. And teh book <a href="https://www.alibris.com/Folkboat-Story-From-Cult-to-Classic-The-Renaissance-of-a-Legend-Dieter-Loibner/book/40120897?matches=15">Folkboat Story: From Cult to Classic — The Renaissance of a Legend</a> by Dieter Loibner chronicles the full history.</p>
+					<p>John Vigor wrote a great article about Folkboats for Good Old Boat Magazine that you can read <a href="http://www.clickbert.com/IFboat/techtips/vigor.html">here</a>. And the book <a href="https://www.alibris.com/Folkboat-Story-From-Cult-to-Classic-The-Renaissance-of-a-Legend-Dieter-Loibner/book/40120897?matches=15">Folkboat Story: From Cult to Classic — The Renaissance of a Legend</a> by Dieter Loibner chronicles the full history.</p>
   			</article>
 			</div>
 		</div>
 	</div>
+	
+	<footer class="center">
+	  <div class="measure">
+	    <small>
+				Visit the <a href="https://store.svbeowulf.com">ship&apos;s store</a>
+				<br>
+				Hail us at <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%61%68%6f%79%40%73%76%62%65%6f%77%75%6c%66%2e%63%6f%6d">
+				    <span class="e-mail" data-user="yoha" data-website="moc.fluwoebvs"></span>
+				</a>
+	    </small>
+	  </div>
+	</footer>
+	
 </body>
 </html>
